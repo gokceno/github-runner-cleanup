@@ -1,0 +1,23 @@
+{
+  "name": "github-runner-cleanup",
+  "version": "1.0.0",
+  "description": "A utility script to identify and remove offline GitHub Actions runners from an organization",
+  "main": "remove.js",
+  "type": "module",
+  "scripts": {
+    "start": "node remove.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "runners",
+    "cleanup",
+    "maintenance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
